@@ -61,7 +61,7 @@ cd ../../
 #For running receiveSwid.py to capture vlan id
 sudo pip install pypcap
 
-git clone https://github.com/alex1230608/contra.git
+git clone https://github.com/jiarong0907/contra.git
 cd contra
 sudo sh -c 'echo "PermitTunnel yes" >> /etc/ssh/sshd_config'
 echo 'StrictHostKeyChecking no' >> ~/.ssh/config
