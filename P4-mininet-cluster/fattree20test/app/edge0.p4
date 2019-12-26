@@ -131,7 +131,7 @@ control MyIngress(inout headers hdr,
 
     table set_nhop_tab {
         key = {
-            hdr.ipv4.dstAddr: lpm;
+            hdr.ipv4.dstAddr: exact;
         }
         actions = {
             set_nhop;
