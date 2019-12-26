@@ -149,7 +149,7 @@ control MyIngress(inout headers hdr,
     apply {
         //ICMP packet: protocol == 1; TCP packet protocol == 6
         if (hdr.ipv4.isValid() && hdr.ipv4.ttl > 0 &&
-            (hdr.ipv4.protocol == 1||hdr.ipv4.protocol == 6)){
+            (hdr.ipv4.protocol == 1 || hdr.ipv4.protocol == 6)){
             set_nhop_tab.apply();
         } else {
             pkt_drop_tab.apply();
