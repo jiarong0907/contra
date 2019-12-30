@@ -1,2 +1,4 @@
-table_add set_nhop_tab set_nhop 10.0.1.10/32 => 1
-table_add set_nhop_tab set_nhop 10.0.2.10/32 => 2
+table_add set_nhop_tab set_nhop 10.0.8.21 => 4
+table_add set_nhop_tab set_nhop 10.0.8.22 => 5
+table_add set_nhop_tab set_nhop 10.0.1.21 => 3
+table_add set_nhop_tab set_nhop 10.0.1.22 => 3

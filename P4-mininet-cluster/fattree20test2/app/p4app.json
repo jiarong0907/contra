@@ -32,8 +32,8 @@
         "h20": {"server": "0"},
         "h21": {"server": "0"},
         "h22": {"server": "0"},
-        "h23": {"server": "1"},
-        "h24": {"server": "1"},
+        "h23": {"server": "0"},
+        "h24": {"server": "0"},
         "h25": {"server": "0"},
         "h26": {"server": "0"},
         "h27": {"server": "0"},
@@ -50,7 +50,7 @@
       "switches": {
         "s1": {
           "entries": "s1-commands.txt",
-          "server": "0"
+          "server": "1"
         },
         "s2": {
           "entries": "s2-commands.txt",
