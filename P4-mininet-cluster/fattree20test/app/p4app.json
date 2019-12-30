@@ -32,8 +32,8 @@
         "h20": {"server": "0"},
         "h21": {"server": "0"},
         "h22": {"server": "0"},
-        "h23": {"server": "1"},
-        "h24": {"server": "1"},
+        "h23": {"server": "0"},
+        "h24": {"server": "0"},
         "h25": {"server": "0"},
         "h26": {"server": "0"},
         "h27": {"server": "0"},
@@ -54,7 +54,7 @@
         },
         "s2": {
           "entries": "s2-commands.txt",
-          "server": "1"
+          "server": "0"
         },
         "s3": {
           "entries": "s3-commands.txt",
@@ -82,7 +82,7 @@
         },
         "s9": {
           "entries": "s9-commands.txt",
-          "server": "2"
+          "server": "0"
         },
         "s10": {
           "entries": "s10-commands.txt",
